@@ -8,7 +8,7 @@ n,m=map(int,input().split())
 #         max=numbers[0]
 # print(max)
 
-#내 코드에서 min함수 사용
+#min 함수 사용
 result=0
 for i in range(n):
     data=list(map(int,input().split()))
