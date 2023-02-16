@@ -4,7 +4,7 @@ direction2=['R','L','U','D']
 direction3=[[0,1],[0,-1],[-1,-0],[1,0]]
 left,right=1,1
 nextleft,nextright=0,0
-box=[[0 for _ in range(boxscale+1)]for _ in range(boxscale+1)]
+#box=[[0 for _ in range(boxscale+1)]for _ in range(boxscale+1)]
 for i in range(len(direction)):
     for j in range(len(direction2)):
         if direction[i]==direction2[j]:
